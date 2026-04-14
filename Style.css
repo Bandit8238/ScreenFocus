@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 10px;
+  margin: 0;
+}
+
+iframe {
+  flex: 1;
+  border: none;
+  filter: none;
+  transition: 0.2s ease;
+}
+
+.blur {
+  filter: blur(20px) brightness(0.3);
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  background: #222;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
