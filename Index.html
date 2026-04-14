@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Focus Mode Overlay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="app">
+    <h1>My Workspace</h1>
+
+    <iframe id="content" src="https://example.com"></iframe>
+
+    <div id="overlay" class="hidden">
+      <div class="card">
+        <h2>Focus Mode Enabled</h2>
+        <p>Everything is paused and hidden.</p>
+        <button onclick="toggleFocus()">Exit Focus Mode</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
